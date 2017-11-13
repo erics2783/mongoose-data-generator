@@ -36,6 +36,12 @@ This project uses Mocha as the testing framework. Visit https://mochajs.org/ for
 
 The assertion library is Chai. Visit http://chaijs.com/ for details.
 
+Code coverage reporting is handled by istanbul/nyc. Visit https://github.com/istanbuljs/nyc for more info.
+
 ```bash
+# run tests and get code coverage report
 npm run test
+
+# run tests without code coverage report
+npm run test:no_coverage
 ```

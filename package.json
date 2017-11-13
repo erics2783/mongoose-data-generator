@@ -7,8 +7,9 @@
     "scripts": {
         "prepublish": "npm run build",
         "build": "tsc",
-        "lint": "tslint src/**/*.ts --project .",
-        "test": "mocha -r ts-node/register test/**/*.test.ts"
+        "lint": "tslint --project test/tsconfig.tests.json src/**/*.ts test/**/*.test.ts",
+        "test": "cross-env NODE_ENV=test nyc mocha",
+        "test:no_coverage": "cross-env NODE_ENV=test mocha"
     },
     "repository": {
         "type": "git",
@@ -31,10 +32,30 @@
         "@types/chai": "^4.0.4",
         "@types/mocha": "^2.2.44",
         "chai": "^4.1.2",
+        "cross-env": "^5.1.1",
         "mocha": "^4.0.1",
+        "nyc": "^11.3.0",
+        "source-map-support": "^0.5.0",
         "ts-node": "^3.3.0",
         "tslint": "^5.8.0",
         "tslint-config-airbnb": "^5.3.0",
         "typescript": "^2.6.1"
+    },
+    "nyc": {
+        "include": [
+            "src/**/*.ts"
+        ],
+        "extension": [
+            ".ts"
+        ],
+        "require": [
+            "ts-node/register"
+        ],
+        "reporter": [
+            "text-summary",
+            "html"
+        ],
+        "sourceMap": true,
+        "instrument": true
     }
 }
