@@ -13,9 +13,14 @@ npm install
 This project is written in typescript. It is compiled to es5 javascript before publishing so that it can be consumed by javascript and typescript projects.
 Visit https://www.typescriptlang.org/ for more info.
 
-
 This project uses EditorConfig to standardize text editor configuration.
 Visit http://editorconfig.org for more info.
+
+### Building
+
+```bash
+npm run build
+```
 
 ### Linting
 
