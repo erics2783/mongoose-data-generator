@@ -1,0 +1,40 @@
+{
+    "name": "mongoose-data-generator",
+    "version": "0.0.1",
+    "description": "Configurable MongoDB data generator that uses your mongoose schemas, including refs to other collections",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "tsc",
+        "lint": "tslint src/**/*.ts --type-check --project",
+        "test": "mocha -r ts-node/register test/**/*.test.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/erics2783/mongoose-data-generator.git"
+    },
+    "keywords": [
+        "mongoose",
+        "data",
+        "generator",
+        "fake",
+        "mongo"
+    ],
+    "author": "Eric Satterwhite",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/erics2783/mongoose-data-generator/issues"
+    },
+    "homepage": "https://github.com/erics2783/mongoose-data-generator#readme",
+    "devDependencies": {
+        "@types/chai": "^4.0.4",
+        "@types/mocha": "^2.2.44",
+        "chai": "^4.1.2",
+        "mocha": "^4.0.1",
+        "ts-node": "^3.3.0",
+        "tslint": "^5.8.0",
+        "tslint-config-airbnb": "^5.3.0",
+        "typescript": "^2.6.1"
+    }
+}
