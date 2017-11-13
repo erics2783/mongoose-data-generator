@@ -33,7 +33,8 @@ npm run lint
 ### Running Tests
 
 This project uses Mocha as the testing framework. Visit https://mochajs.org/ for more info.
-This project uses Chai as the assertion library. Visit http://chaijs.com/ for more info.
+
+The assertion library is Chai. Visit http://chaijs.com/ for details.
 
 ```bash
 npm run test
