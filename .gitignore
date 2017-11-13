@@ -64,4 +64,4 @@ typings/
 .idea
 
 # ignore compiled javascript files
-.dist
+.dist/*
