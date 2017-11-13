@@ -7,7 +7,7 @@
     "scripts": {
         "prepublish": "npm run build",
         "build": "tsc",
-        "lint": "tslint src/**/*.ts --type-check --project",
+        "lint": "tslint src/**/*.ts --project .",
         "test": "mocha -r ts-node/register test/**/*.test.ts"
     },
     "repository": {
