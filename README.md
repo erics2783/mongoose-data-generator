@@ -2,7 +2,7 @@
 
 Configurable MongoDB data generator that uses your mongoose schemas, including refs to other collections
 
-[![travis-build](https://img.shields.io/travis/erics2783/mongoose-data-generator.svg)]](https://travis-ci.org/erics2783/mongoose-data-generator)
+[![travis-build](https://img.shields.io/travis/erics2783/mongoose-data-generator.svg)](https://travis-ci.org/erics2783/mongoose-data-generator)
 
 ## Getting Started
 
