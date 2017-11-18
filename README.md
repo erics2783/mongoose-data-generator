@@ -36,7 +36,7 @@ npm run lint
 
 This project uses Mocha as the testing framework. Visit https://mochajs.org/ for more info.
 
-The assertion library is Chai. Visit http://chaijs.com/ for details.
+The assertion library is Chai, along with the sinon-chai library for spies/mocks. Visit http://chaijs.com/ and http://chaijs.com/plugins/sinon-chai/ for details.
 
 Code coverage reporting is handled by istanbul/nyc. Visit https://github.com/istanbuljs/nyc for more info.
 
