@@ -6,6 +6,34 @@
             4,
             { "SwitchCase": 1 }
         ],
-        "no-switch-case-fall-through": true
+        "no-switch-case-fall-through": true,
+        "max-line-length": [
+            true,
+            120
+        ],
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "public-static-field",
+                    "public-instance-field",
+                    "public-static-method",
+                    "public-constructor",
+                    "public-instance-method",
+                    "protected-static-field",
+                    "protected-instance-field",
+                    "protected-static-method",
+                    "protected-constructor",
+                    "protected-instance-method",
+                    "private-static-field",
+                    "private-instance-field",
+                    "private-static-method",
+                    "private-constructor",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "only-arrow-functions": true,
+        "adjacent-overload-signatures": false
     }
 }
