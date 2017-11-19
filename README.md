@@ -3,7 +3,7 @@
 Configurable MongoDB data generator that uses your mongoose schemas, including refs to other collections
 
 [![travis-build](https://img.shields.io/travis/erics2783/mongoose-data-generator.svg)](https://travis-ci.org/erics2783/mongoose-data-generator)
-[![Coverage Status](https://coveralls.io/repos/github/erics2783/mongoose-data-generator/badge.svg?branch=master)](https://coveralls.io/github/erics2783/mongoose-data-generator?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/github/erics2783/mongoose-data-generator/master.svg)](https://coveralls.io/github/erics2783/mongoose-data-generator?branch=master)
 
 ## Getting Started
 
