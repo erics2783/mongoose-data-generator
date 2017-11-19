@@ -1,5 +1,6 @@
 import { expect } from 'chai';
 import 'mocha';
+import * as index from '../src/index';
 
 describe('Testing', () => {
     it ('should run tests', () => {
@@ -8,3 +9,10 @@ describe('Testing', () => {
     });
 });
 
+describe('index', () => {
+    describe('coverallsTest2()', () => {
+        it ('should return hello coveralls world', () => {
+            expect(index.coverallsTest2()).to.equal('hello coveralls world');
+        });
+    });
+});
