@@ -66,5 +66,8 @@
         ],
         "sourceMap": true,
         "instrument": true
+    },
+    "dependencies": {
+        "path": "^0.12.7"
     }
 }
