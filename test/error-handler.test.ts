@@ -52,7 +52,7 @@ describe('ErrorHandler class', () => {
         });
 
         it ('should throw specified with specified error type if errorType passed in ', () => {
-            expect(() => handler.throwErr('Type Err Message', TypeError)).to.throw(TypeError);
+            expect(() => handler.throwErr('Type Err Message', <typeof Error>TypeError)).to.throw(TypeError);
         });
 
         it ('should prepend prefix to msg', () => {
